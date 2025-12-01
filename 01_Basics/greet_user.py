@@ -1,6 +1,8 @@
 from hello_world import greet
 import os
+import sys
 
 greet("Salman Khan from greet_user.py")
 
-os.getcwd()
+print(os.getcwd())
+print(sys.platform)
